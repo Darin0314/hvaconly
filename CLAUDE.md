@@ -56,7 +56,17 @@ Converting hvaconly.com from WordPress 6.7.5 to a fully static responsive site.
 
 ---
 
+### Phase 6 — Privacy Policy, EULA & Deploy ✅ (2026-04-08)
+- Expanded `our-privacy.html` from stub to full 12-section Privacy Policy (data collection, SMS opt-in/out, cookies, third-party links, data security, retention, user rights, children's privacy, changes)
+- Created `eula.html` — Terms of Service & EULA with 11 sections (acceptance, services, website license, estimates, insurance/warranty work, warranties, liability, indemnification, governing law — Jefferson County CO)
+- Added "Terms of Service" to footer nav on all 11 pages
+- Updated sitemap.xml with eula.html entry
+- GitHub: https://github.com/Darin0314/hvaconly (main branch)
+- **DEPLOYED** to production server 104.37.191.139 — live at https://hvaconly.com/
+- WP backup saved at `/home/hvaconly/public_html_wp_backup_20260408`
+
+---
+
 ## Next Up
-- Set up GitHub repo
 - Review service page content for accuracy (heating, cooling, air-quality, packaged-units)
 - Consider adding a Google Maps embed to contact page
