@@ -1,0 +1,33 @@
+# WordPress legacy files (kept locally for reference only)
+wp-admin/
+wp-content/
+wp-includes/
+wp-config.php
+wp-config-sample.php
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+.htaccess
+
+# Database dump
+*.sql
+
+# Zip files and Windows metadata
+newsite/*.zip
+newsite/*.zip:*
+
+# OS
+.DS_Store
+Thumbs.db
