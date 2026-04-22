@@ -109,22 +109,27 @@ a:hover {
 #header .header-wrapper {
   min-height: 120px;
   transition: all 0.6s ease;
+  padding-left: 30%;
 }
 
 /* LEFT SIDE (ANGLED SHAPE) */
 #header .header-left {
-  position: relative;
-  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 30%;
+  height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 
 /* LOGO */
 #header .logo-box {
   position: relative;
   z-index: 2;
-  padding: 0px 40px !important;
+  padding: 0;
 }
 
 #header .logo-img {
@@ -1305,6 +1310,10 @@ footer .footer-bottom p {
   #header .header-left {
     width: 24%;
   }
+
+  #header .header-wrapper {
+    padding-left: 24%;
+  }
 }
 
 @media (max-width:1199px) {
@@ -1322,6 +1331,10 @@ footer .footer-bottom p {
 
   #header .header-left {
     width: 25%;
+  }
+
+  #header .header-wrapper {
+    padding-left: 25%;
   }
 
   #header .contact-btn {
