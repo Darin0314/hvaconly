@@ -114,6 +114,7 @@ a:hover {
 /* LEFT SIDE (ANGLED SHAPE) */
 #header .header-left {
   position: relative;
+  flex-shrink: 0;
 }
 
 /* LOGO */
@@ -424,6 +425,12 @@ footer .footer-nav ul li:nth-child(even) {
 }
 
 /* CARD */
+#services .service-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 #services .service-card {
   text-align: center;
   padding: 20px;
