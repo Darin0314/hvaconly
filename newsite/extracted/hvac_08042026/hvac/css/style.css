@@ -124,11 +124,14 @@ a:hover {
 #header .logo-box {
   position: relative;
   z-index: 2;
-  padding: 0px 40px;
+  padding: 0px 40px !important;
 }
 
 #header .logo-img {
-  height: 100px;
+  height: 100px !important;
+  width: auto !important;
+  max-width: none !important;
+  display: block !important;
   transition: all 0.6s ease;
 }
 
