@@ -115,6 +115,9 @@ a:hover {
 #header .header-left {
   position: relative;
   flex-shrink: 0;
+  width: 30%;
+  display: flex;
+  align-items: center;
 }
 
 /* LOGO */
@@ -1295,6 +1298,10 @@ footer .footer-bottom p {
   #header.headerAfterScroll.angled-bg::before {
     width: 22%;
   }
+
+  #header .header-left {
+    width: 24%;
+  }
 }
 
 @media (max-width:1199px) {
@@ -1308,6 +1315,10 @@ footer .footer-bottom p {
 
   #header.headerAfterScroll.angled-bg::before {
     width: 24%;
+  }
+
+  #header .header-left {
+    width: 25%;
   }
 
   #header .contact-btn {
